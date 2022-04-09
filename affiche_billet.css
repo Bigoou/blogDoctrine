@@ -1,0 +1,11 @@
+.bouton {
+    background-color: #ff0606;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.billet {
+    border: 2px #df3c3c solid ;
+}

@@ -1,0 +1,274 @@
+@font-face {
+    font-family:"Futura";
+    src: url("FuturaLT.woff") format("woff");
+    src: url("FuturaLT.woff2") format("woff2");
+   }
+@font-face {
+    font-family: "FutBold";
+    src: url("FuturaLT-Bold.woff") format("woff");
+    src: url("FuturaLT-Bold.woff2") format("woff2");
+}
+
+body {
+    font-family:"Futura";
+    margin: 0;
+    background-color: #ececec;
+}
+
+#rectangle{
+    width:100px;
+    height:10px;
+    background: #ffd755;
+    margin-bottom: 2%;
+}
+
+.creation_billet {
+    text-align: center;
+    background-color: #ececec;
+    margin-top: -10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+h1,h2,h3,h5 {
+    font-family: "FutBold";
+}
+
+.bloc0 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.bloc {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header {
+    font-size: 3rem;
+}
+
+.class1 {
+    background-color: #272727;
+    color: #ffffff;
+    padding-bottom: 2%;
+    height: 100vh;
+}
+
+.class1 a {
+    color: #ffffff;
+}
+
+.commentaire {
+    background-color: #272727;
+    color: #ececec;
+    border: 2px #272727 solid;
+    padding: 2%;
+    margin: 2%;
+    width: 65%;
+    min-width: 64%;
+    border-radius: 10px;
+}
+
+.commentaire a {
+    color: #ffd755;
+}
+
+.commentaire h5 {
+    display: flex;
+    align-items: center;
+}
+
+#circle {
+    background-image: url("pfp.png");
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: rgb(221, 220, 220);
+    margin-right: 1%;
+  }
+
+.date {
+    margin-top: 0;
+    font-size: 0.70rem;
+}
+
+.bloc1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+}
+
+.billets {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.section1 {
+    width: 50%;
+    height: 10%;
+    margin: auto;
+}
+
+.txt {
+    width: 95%;
+    margin: auto;
+}
+
+.section1 p {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+header {
+    font-weight: bolder;
+}
+
+.section2 {
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.img1 {
+    height: 80%;
+    margin: auto;
+}
+
+.bloc1 form {
+    margin-bottom: 5%;
+}
+
+.bouton {
+    background-color: #ffd755;
+    color: #272727 !important;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user {
+    padding: 15px;
+    border: #272727 solid 1px;
+    background-color: #272727;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 2%;
+    width: 400px;
+}
+
+.user a {
+    color: #ffd755;
+}
+
+textarea {
+    background-color: white;
+    border: #272727 solid 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+nav h1 {
+    font-size: 2rem;
+}
+
+nav a {
+    margin-left: 10%;
+    /* display:inline-block; */
+    padding:10px;
+
+} 
+
+a {
+    text-decoration: none;
+    color: #2c2c81;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.billet {
+    background-color: #272727;
+    color: #ffffff;
+    padding: 2%;
+    margin: 2%;
+    width: 300px;
+    min-width: 300px;
+    max-height: 450px;
+    border-radius: 10px;
+}
+
+#bouton {
+    font-size: 1rem;
+}
+
+.creation_billet textarea {
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.billet textarea {
+    background-color: #ececec;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.billet1 textarea {
+    background-color: #ececec;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.billet a {
+    color: #ffd755;
+}
+
+.billet1 {
+    background-color: #272727;
+    color: #ffffff;
+    padding: 2%;
+    margin-top: 2%;
+    width: 300px;
+    min-width: 300px;
+    max-height: 370px;
+    border-radius: 10px;
+}
+
+.p {
+    font-size: 14px;
+}
+
+ .liens {
+    margin: auto;
+    margin-right: 0;
+    width: 600px;
+    text-align: right;
+} 
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
